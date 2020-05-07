@@ -1,0 +1,40 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+#logo{
+  position: absolute;
+  left: 30%;
+  margin-top: 5%;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  background-color: #000000;
+}
+
+#Easy, #Hard{
+  position: absolute;
+  background-color: #007AE5;
+  margin-top: 30%;
+  padding-right: 5px;
+  padding-left: 5px;
+  border: 2px solid #007AE5;
+  border-radius: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Delius Swash Caps';
+  font-size: 27px;
+  color: black;
+}
+
+#Easy{
+  left:37%;
+}
+
+#Hard{
+  right:33%;
+}
+
+.link a:hover {
+  opacity: 0.5;
+}

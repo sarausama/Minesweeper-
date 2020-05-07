@@ -1,0 +1,32 @@
+#mycanvas {
+  background: #000000;
+  display: block;
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 50%;
+  top: 50%;
+  margin-left: -300px; /* This is half the width */
+  margin-top: -200px; /* This is half the height */
+
+}
+
+body{
+  background: #ffffff;
+}
+
+#Hard{
+  position: absolute;
+  background-color: #007AE5;
+  padding-right: 5px;
+  padding-left: 5px;
+  border: 2px solid #007AE5;
+  border-radius: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Delius Swash Caps';
+  font-size: 18px;
+  color: black;
+  left: 45%;
+  top: 85%;
+}
